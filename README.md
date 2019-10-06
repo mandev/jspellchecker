@@ -7,7 +7,7 @@ JSpellChecker is a 100% pure Java library implementing a spell checking algorith
 
 JSpellChecker is based on and [Jazzy](http://jazzy.sourceforge.net) and borrows improvements from [SpellChecker]( https://github.com/bobbylight/SpellChecker). 
 
-JSpell implements a SpellDictionaryDichoNIO that uses FileChannel map to provide fast access to the dictionnary datas.
+JSpellChecker implements a SpellDictionaryDichoNIO that uses FileChannel map to provide fast access to the dictionnary datas.
 
 ### Licensing and legal issues
 
