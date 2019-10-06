@@ -5,7 +5,7 @@
  
 JSpellChecker is a 100% pure Java library implementing a spell checking algorithm similar to aspell. It may be used to spell check a variety of sources.
 
-JSpellChecker is based on and Jazzy and borrows improvements from SpellChecker (https://github.com/bobbylight/SpellChecker). 
+JSpellChecker is based on and [Jazzy](http://jazzy.sourceforge.net) and borrows improvements from [SpellChecker]( https://github.com/bobbylight/SpellChecker). 
 
 ### Licensing and legal issues
 
