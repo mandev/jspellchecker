@@ -32,9 +32,6 @@ public class SpellDictionaryDichoNIO extends SpellDictionaryDichoDisk {
 
     private ByteBuffer buffer;
 
-    /**
-     * Found words
-     */
     public SpellDictionaryDichoNIO(File wordList) throws FileNotFoundException, IOException {
         super(wordList);
     }
