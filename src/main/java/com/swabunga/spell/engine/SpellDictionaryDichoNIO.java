@@ -1,8 +1,22 @@
+
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+JSpellChecker - a Java library for Spell Checking
+Copyright (C) 2005 Emmanuel Deviller
+
+Full text of license can be found in LICENSE.txt
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
 package com.swabunga.spell.engine;
 
 import java.io.File;
@@ -13,10 +27,6 @@ import java.nio.channels.FileChannel;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author manu
- */
 public class SpellDictionaryDichoNIO extends SpellDictionaryDichoDisk {
 
 
@@ -45,8 +55,6 @@ public class SpellDictionaryDichoNIO extends SpellDictionaryDichoDisk {
     }
 
     private void dichoFind(String code, int p1, int p2, ArrayList<String> wordList) throws IOException {
-        //System.out.println("dichoFind("+code+","+p1+","+p2+")");
-
         int pm = (int) ((p1 + p2) / 2);
         buffer.position(pm);
         nextLine();
